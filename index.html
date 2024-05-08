@@ -40,6 +40,18 @@
             font-family: poppins;
             font-size: 30px;
         }
+        .factorial{
+            border:19px solid orange;
+            border-style: ridge;
+            height:400px;
+            width:300px;
+            margin:20px;
+            border-radius:30px;
+            background-color: greenyellow;
+            padding-left: 5px;
+
+
+        }
     </style>
 </head>
 <body >
@@ -94,12 +106,18 @@
     <div class="btn" >
         <button type="button" onclick="otp()" id="btn1">OTP GENERATOR</button></div>
           </div>
+          
    </details> <script>
         function otp(){
             let btn=document.getElementById("btn1");
-            let x=Math.floor(Math.random()*1000000);
+            let x=Math.floor(Math.random()*1000000*);
             btn.innerHTML=""+x
           }
     </script></details>
+     <!-- <details><summary>FACTORIAL</summary> -->
+        <div class="factorial"><h1><P><i>FACTORIAL OF A NUMBER</i></P></h1>
+        <input type="" id="vinay" placeholder="enter your value">
+        </div>
+        <!-- // </details> -->
 </body>
 </html>
